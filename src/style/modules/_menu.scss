@@ -1,0 +1,15 @@
+nav {
+  padding: 10px;
+}
+nav img {
+  height: 28px;
+}
+.right {
+  margin-left: auto;
+  & form *:nth-child(n) {
+    margin-right: 10px;
+    // &:last-of-type {
+    //   margin-right: 0;
+    // }
+  }
+}

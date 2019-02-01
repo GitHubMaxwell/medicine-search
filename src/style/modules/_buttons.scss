@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  min-width: 65px;
+  max-width: 80px;
+  &:hover,
+  &:focus {
+    color: set-text-color($primary-text-color);
+    &#login,
+    &#save {
+      background: $primary-positive-cta-color;
+    }
+    &#logout {
+      background: $negative-cta-color;
+    }
+    &.search {
+      background: $secondary-positive-cta-color;
+    }
+    &.back,
+    &#alt {
+      background: $undo-cta-color;
+    }
+  }
+  &#undo {
+    color: set-text-color($primary-text-color);
+    background: $undo-cta-color;
+  }
+}
