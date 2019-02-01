@@ -21,7 +21,7 @@ class Profile extends Component {
             </Link>
           </div>
         </nav>
-        <ul>
+        <ul className="container">
           {Object.values(this.props.savedItems).map(ele => (
             <ProfileCard key={ele.rxcui} details={ele} />
           ))}

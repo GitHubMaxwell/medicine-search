@@ -71,7 +71,7 @@ class Dashboard extends Component {
                   Search
                 </button>
                 <Link to="/profile">
-                  <button className="profile" type="submit">
+                  <button id="profile" type="submit">
                     Profile
                   </button>
                 </Link>

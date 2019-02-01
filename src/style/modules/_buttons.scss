@@ -15,7 +15,8 @@ button {
     &#logout {
       background: $negative-cta-color;
     }
-    &.search {
+    &.search,
+    #profile {
       background: $secondary-positive-cta-color;
     }
     &.back,
