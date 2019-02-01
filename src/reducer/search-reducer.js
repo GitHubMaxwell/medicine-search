@@ -19,7 +19,6 @@ export const populateList = payload => {
 };
 
 export const populateAlternatives = payload => {
-  console.log('ALT SEARCH PAYLOAD: ', payload);
   return dispatch => {
     const urlIN = `https://medicine-backend.herokuapp.com/api/v1/alternatives/${payload}`;
     fetch(urlIN)

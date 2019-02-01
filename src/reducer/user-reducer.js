@@ -40,7 +40,7 @@ export const logIn = payload => {
 
 export const logOut = payload => {
   return dispatch => {
-    const url = `https://medicine-backend.herokuapp.com/api/v1/user/${payload}`;
+    const url = `https://medicine-backend.herokuapp.com/api/v1/user/${payload.userId}`;
     fetch(url, {
       method: 'PUT',
       body: JSON.stringify(payload),
