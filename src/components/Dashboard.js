@@ -42,7 +42,7 @@ class Dashboard extends Component {
     if (!this.props.loggedIn) {
       return (
         <nav className="container">
-          <img src={CanvasLogo} alt="canvas logo" />
+          <h1>PillBox</h1>
           <div className="right container">
             <LogInOut />
           </div>
